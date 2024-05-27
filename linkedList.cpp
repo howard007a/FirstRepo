@@ -21,7 +21,7 @@ void linkedlist::printList()
 	cout << head->data << endl;
 	node * ptr = head->next;
 	while(ptr != head)
-	{
+	{ 
 		cout << ptr->data << endl;
 		ptr = ptr->next;
 	}
