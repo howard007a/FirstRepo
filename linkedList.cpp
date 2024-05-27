@@ -13,7 +13,7 @@ linkedlist::linkedlist()
 {
 	head = nullptr;
 }
-
+ 
 //printing the elements of the list
 void linkedlist::printList()
 {
