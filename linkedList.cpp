@@ -23,7 +23,7 @@ void linkedlist::printList()
 	while(ptr != head)
 	{ 
 		cout << ptr->data << endl;
-		ptr = ptr->next;
+		ptr = ptr->next;  
 	}
 }
 
